@@ -27,4 +27,5 @@ module.exports.voteDBService = (voteDetails) => {
         reject(new Error("Failed to save vote data."));
       }
     });
+    
   };
